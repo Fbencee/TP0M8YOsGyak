@@ -12,7 +12,7 @@ int main(){
     int fd;
     pid_t gyerek;
 
-    if((mkfifo("AJYQK3", S_IRUSR | S_IWUSR)) < 0)
+    if((mkfifo("TP0M8Y", S_IRUSR | S_IWUSR)) < 0)
 	{
         printf("RENDSZER: Nem sikerult a FIFO letrehozasa!\n");
         exit(1);
